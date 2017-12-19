@@ -1,7 +1,10 @@
 # -*- coding: utf-8 -*-
-import redis
 import os
 import telebot
+
+
+token = os.environ['TELEGRAM_TOKEN']
+some_api_token = os.environ['SOME_API_TOKEN']
 
 
 bot = telebot.TeleBot(507239586:AAGCBX_e-jTo6vm3l3gkqnUQyepn9x5pYR0)
