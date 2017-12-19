@@ -2,20 +2,9 @@
 import redis
 import os
 import telebot
-# import some_api_lib
-# import ...
-
-# Example of your code beginning
-#           Config vars
-token = os.environ['TELEGRAM_TOKEN']
-some_api_token = os.environ['SOME_API_TOKEN']
-#             ...
-
-# If you use redis, install this add-on https://elements.heroku.com/addons/heroku-redis
-r = redis.from_url(os.environ.get("REDIS_URL"))
 
 
-bot = telebot.TeleBot(constants.token)
+bot = telebot.TeleBot(507239586:AAGCBX_e-jTo6vm3l3gkqnUQyepn9x5pYR0)
 
 
 @bot.message_handler(commands=['start'])
